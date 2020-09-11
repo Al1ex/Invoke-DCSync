@@ -24,5 +24,7 @@ Can use the Invoke-DCSync module to extract all hashes.
 
 Download from: https://gist.github.com/monoxgas/9d238accd969550136db
 
+~~~
 $ Import-Module ./Invoke-DCSync.ps1
 $ Invoke-DCSync -PWDumpFormat
+~~~
